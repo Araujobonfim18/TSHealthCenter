@@ -487,12 +487,12 @@ form &&
           result.innerHTML = json.body.message;
         } else {
           console.log(response);
-          result.innerHTML = "Something went wrong!";
+          result.innerHTML = "Recebemos sua menssagem!";
         }
       })
       .catch((error) => {
         console.log(error);
-        result.innerHTML = "Something went wrong!";
+        result.innerHTML = "Algo deu errado!";
       })
       .then(function () {
         form.reset();
