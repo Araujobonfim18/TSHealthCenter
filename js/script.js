@@ -471,7 +471,7 @@ form &&
       object[key] = value;
     });
     var json = JSON.stringify(object);
-    result.innerHTML = "Please wait...";
+    result.innerHTML = "Enviando...";
 
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
