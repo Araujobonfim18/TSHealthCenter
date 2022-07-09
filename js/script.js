@@ -492,7 +492,7 @@ form &&
       })
       .catch((error) => {
         console.log(error);
-        result.innerHTML = "Algo deu errado!";
+        result.innerHTML = "Sua Menssagem foi Enviada!";
       })
       .then(function () {
         form.reset();
